@@ -1,7 +1,45 @@
+body{
+    background-color:#f7f7f7;
+    font-family: Verdana;
+}
+.foto_topo{
+    border: 1px solid #505050;
+    border-radius: 50px;
+}
+
+
 #title,sub_title,post_title{
-    color: blue;
+    color:#505050;
+    text-transform: uppercase;
 }
+
+a{
+    text-decoration: line-through;
+    color: #505050;
+}
+
 .sub_title{
-    font-size: 36px;
-    font-style:oblique;
+    font-size: 16px;
+    font-style:italic;
+    margin: 0;
+    margin-bottom: 15px;
 }
+.post{
+    background-color: #fff;
+    padding: 10px;
+    border: 3px solid #505050;
+    margin: 15px;   
+    border-radius:5px 10px; 
+} 
+
+.post_content{
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+
+}
+
+.post_image{
+    margin-bottom: 15px;
+}
+
